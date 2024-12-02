@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="187caba9-c752-4d7c-b439-83a077abac15">
+  <producedTypes>
+    <objectType typeId="20bf1580-c002-43de-b2c8-2f90ba15bd21" valueTypeId="94c5f313-0917-4846-9c95-51c83ca0f663"/>
+    <refType typeId="98d35ab1-cfab-421f-8b9b-91e84f064905" valueTypeId="8e7ccfc8-08fd-44c7-b344-a73ef08814bc"/>
+    <selectionType typeId="28ec3799-825a-43d7-9d7e-38c8b948bc12" valueTypeId="581ae599-3252-4dc8-b0fc-93cde7531f07"/>
+    <listType typeId="74bfc50f-8d95-4c95-a7b7-ea588aab9808" valueTypeId="0fb1cf53-28a4-4f15-a108-21058c67ed8b"/>
+    <managerType typeId="616e4671-dd00-4a79-a485-96faa7c3756f" valueTypeId="afdec541-2699-4cf4-a150-0240263f4aae"/>
+  </producedTypes>
+  <name>УстановкаАналоговНоменклатуры</name>
+  <synonym>
+    <key>ru</key>
+    <value>Установка аналогов номенклатуры</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.УстановкаАналоговНоменклатуры.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <registerRecords>InformationRegister.АналогиНоменклатуры</registerRecords>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="f591a9a1-e589-4409-b0d0-782bd49811e4">
+    <name>Номенклатура</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номенклатура</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Номенклатура</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="ed98b4e8-6fe7-4dcc-a1ce-8ceb4c29e1a3">
+    <name>Характеристика</name>
+    <synonym>
+      <key>ru</key>
+      <value>Характеристика</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ХарактеристикиНоменклатуры</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="8cfd5f10-97cc-4b5b-8617-9ccdebb9fa8e">
+    <producedTypes>
+      <objectType typeId="17a842f8-9558-461f-8a9b-825a57fb298c" valueTypeId="13dbf897-b6ee-44f6-bad2-8368d28e8df1"/>
+      <rowType typeId="d619fe44-018d-43e9-97ba-d3ef621ba3f6" valueTypeId="d653bd34-76f4-4f19-999a-e5e905504376"/>
+    </producedTypes>
+    <name>СписокНоменклатуры</name>
+    <synonym>
+      <key>ru</key>
+      <value>Список номенклатуры</value>
+    </synonym>
+    <attributes uuid="11380a74-5e35-4592-8b45-9a8b2e935780">
+      <name>Аналог</name>
+      <synonym>
+        <key>ru</key>
+        <value>Аналог</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Номенклатура</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="a275ae63-5825-48b3-b7fa-9c33b7faaafb">
+      <name>ХарактеристикаАналога</name>
+      <synonym>
+        <key>ru</key>
+        <value>Характеристика аналога</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.ХарактеристикиНоменклатуры</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+</mdclass:Document>

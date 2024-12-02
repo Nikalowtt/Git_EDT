@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8d73c53f-ddd5-4890-ab97-73c554e968ab">
+  <producedTypes>
+    <objectType typeId="bf8e7380-4f44-4199-b304-9345c9d05661" valueTypeId="1b7274eb-f29d-4b43-8f5d-f8063b3deb17"/>
+    <refType typeId="12f6c3c0-f1c5-4ecd-9371-e42e3881aea2" valueTypeId="d5020fed-370d-4fb6-945a-edac59601163"/>
+    <selectionType typeId="6392ee14-e04a-4d7c-8a20-ed6de49ea938" valueTypeId="b4cf4370-0940-42a6-876c-803771134367"/>
+    <listType typeId="578735ab-fe47-4615-b98f-a2a386a2e34e" valueTypeId="554a0e39-ada8-401a-9406-4653e8814fcd"/>
+    <managerType typeId="08eb1875-c8a4-452c-895a-f118d0786812" valueTypeId="3c7b1486-a459-4c99-8e1e-2a2261f6236f"/>
+  </producedTypes>
+  <name>Номенклатура</name>
+  <synonym>
+    <key>ru</key>
+    <value>Номенклатура</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Номенклатура.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Номенклатура.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <characteristics>
+    <characteristicTypes>ChartOfCharacteristicTypes.ДополнительныеСвойства</characteristicTypes>
+    <keyField>ChartOfCharacteristicTypes.ДополнительныеСвойства.StandardAttribute.Ref</keyField>
+    <typesFilterField>-1</typesFilterField>
+    <typesFilterValue xsi:type="core:UndefinedValue"/>
+    <dataPathField>ChartOfCharacteristicTypes.ДополнительныеСвойства.StandardAttribute.Ref</dataPathField>
+    <multipleValuesUseField>-1</multipleValuesUseField>
+    <characteristicValues>InformationRegister.СвойстваНоменклатуры</characteristicValues>
+    <objectField>InformationRegister.СвойстваНоменклатуры.Dimension.Номенклатура</objectField>
+    <typeField>InformationRegister.СвойстваНоменклатуры.Dimension.Свойство</typeField>
+    <valueField>InformationRegister.СвойстваНоменклатуры.Resource.ЗначениеСвойства</valueField>
+    <multipleValuesKeyField>-1</multipleValuesKeyField>
+    <multipleValuesOrderField>-1</multipleValuesOrderField>
+  </characteristics>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

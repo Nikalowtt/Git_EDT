@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3791f95e-9611-4906-a373-02f0896ea1c1">
+  <producedTypes>
+    <objectType typeId="0c4b22e7-b5e4-45fa-9c4c-9526af33ee49" valueTypeId="afee4895-f869-427c-bbd4-cc84c0717caa"/>
+    <refType typeId="519ee398-868c-48e6-9f22-f24e9ac12e4e" valueTypeId="4e0c44b6-d396-452d-8048-7c80d59bc2e5"/>
+    <selectionType typeId="5a689323-f42c-431a-8fcc-fd04aad30a0e" valueTypeId="4f9f1e20-dd2d-474f-8051-3b8ef81671d1"/>
+    <listType typeId="ad956fda-3c0d-44fb-bc17-3b743e062225" valueTypeId="74ebf9c3-8702-444d-9858-5466363aaeeb"/>
+    <managerType typeId="f494694d-6778-4eab-a1e9-c26a6dacb969" valueTypeId="e4546eb5-0c31-44d0-a256-b21272bc0ce5"/>
+  </producedTypes>
+  <name>ДействующиеВещества</name>
+  <synonym>
+    <key>ru</key>
+    <value>Действующие вещества</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ДействующиеВещества.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ДействующиеВещества.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

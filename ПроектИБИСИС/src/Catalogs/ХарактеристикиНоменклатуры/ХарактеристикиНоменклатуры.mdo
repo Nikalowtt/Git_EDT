@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a119b91d-d6aa-4379-8c73-1891e05913c4">
+  <producedTypes>
+    <objectType typeId="ab5953ab-b000-4697-baeb-196cff2b7bcd" valueTypeId="fa826f75-9c7d-46b3-82a0-035e22e7561a"/>
+    <refType typeId="d4031ead-adce-40e1-9cf4-0c19be5261da" valueTypeId="6dcfeb9a-4f6c-49ea-8bc9-6ff6f543ead6"/>
+    <selectionType typeId="5f3df8df-52ef-4fb0-a503-3cae3a0f4dc3" valueTypeId="48022edb-bd71-4cac-85ac-44e2b91e497d"/>
+    <listType typeId="006c7f09-137a-4179-9286-f49330009f4f" valueTypeId="ee86437b-62f3-4cc9-9db6-d950972f0c19"/>
+    <managerType typeId="71ca45d5-ebe7-42eb-a5fb-2eb308a0944d" valueTypeId="5d569eba-0e96-44ef-be1b-67c16ea3f726"/>
+  </producedTypes>
+  <name>ХарактеристикиНоменклатуры</name>
+  <synonym>
+    <key>ru</key>
+    <value>Свойства номенклатуры</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ХарактеристикиНоменклатуры.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ХарактеристикиНоменклатуры.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <owners>Catalog.Номенклатура</owners>
+  <codeLength>9</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.ХарактеристикиНоменклатуры.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.ХарактеристикиНоменклатуры.Form.ФормаСписка</defaultListForm>
+  <tabularSections uuid="429f6d69-efd8-4b58-9d2f-3ee80b433e67">
+    <producedTypes>
+      <objectType typeId="c471ee10-0a21-433f-ae56-b768680ec4ce" valueTypeId="adabade0-478d-4894-9eb3-acb3d9f08336"/>
+      <rowType typeId="13c14722-7ed1-44db-8d1c-3ac8cd6a1894" valueTypeId="3a2cf40a-d965-4e3c-a742-c2d190ed62cb"/>
+    </producedTypes>
+    <name>ДополнительныеРеквизиты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дополнительные реквизиты</value>
+    </synonym>
+    <attributes uuid="6bc2ffdc-8f7a-4519-844d-427fb933cad7">
+      <name>Свойство</name>
+      <synonym>
+        <key>ru</key>
+        <value>Характеристика</value>
+      </synonym>
+      <type>
+        <types>ChartOfCharacteristicTypesRef.ДополнительныеСвойства</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="a2ef345c-92f6-46e6-8fd7-cca5a228091f">
+      <name>Характеристика</name>
+      <synonym>
+        <key>ru</key>
+        <value>Значение</value>
+      </synonym>
+      <type>
+        <types>Characteristic.ДополнительныеСвойства</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <forms uuid="13769d86-5924-443b-8e92-fac7010c8678">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="37b65f32-6061-494b-8579-52be7260423d">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>
