@@ -43,6 +43,7 @@
   <catalogs>Catalog.ДействующиеВещества</catalogs>
   <catalogs>Catalog.ЗначенияСвойств</catalogs>
   <catalogs>Catalog.ХарактеристикиНоменклатуры</catalogs>
+  <catalogs>Catalog.Сотрудники</catalogs>
   <documents>Document.ПоступленияТоваров</documents>
   <documents>Document.ПродажаТоваров</documents>
   <documents>Document.УстановкаАналоговНоменклатуры</documents>
